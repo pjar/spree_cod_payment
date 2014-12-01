@@ -21,7 +21,7 @@ module CheckoutControllerCODExtension
 
   private
 
-  def payment_method_ids_form_params
+  def payment_method_ids_from_params
     params.fetch(:order, {}).fetch(:payments_attributes, []).map{ |p_a| p_a.fetch(:payment_method_id, nil)}
   end
 

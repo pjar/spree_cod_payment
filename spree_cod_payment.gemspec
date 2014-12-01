@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_cod_payment'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.summary     = 'Simple approach to COD payments'
   s.description = 'Cash On Delivery payments are quite popular in some countries. This gem tries to add that functionality to spree. It also allows to setup charge for this kind of payment as it charged by delivery companies. Built for Spree 2-4-stable'
   s.required_ruby_version = '>= 1.9.3'
